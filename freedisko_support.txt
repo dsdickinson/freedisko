@@ -1,0 +1,35 @@
+
+
+[17:38] <dsdickinson> got a staff question here
+[17:38] <DonHo> yes
+[17:39] <@hinojosa> dsdickinson: Go ahead
+[17:39] <dsdickinson> just registered a project (FreeDiskO) and set everything up for it
+[17:39] <@hinojosa> DonHo: We changed our process and we really don't have options here
+[17:39] <dsdickinson> but when I search for it using the search box, it doesnt come up as expected
+[17:40] <DonHo> hinojosa: yes, fair enough for me
+[17:40] <@hinojosa> dsdickinson: what is the project name
+[17:40] <dsdickinson> FreeDiskO
+[17:40] <@hinojosa> dsdickinson: and what are you using to search?
+[17:40] <DonHo> thank you for your answer hinojosa
+[17:40] <dsdickinson> it say "Exact matches found: FreeDiskO" but then also "No results were found to match your current search criteria."
+[17:40] <@hinojosa> DonHo: You're welcome
+[17:40] <@hinojosa> dsdickinson: https://sourceforge.net/search/?type_of_search=soft&words=FreeDiskO&search=Search
+[17:40] <@hinojosa> right?
+[17:40] <@hinojosa> how long ago did you register?
+[17:41] <dsdickinson> yes
+[17:41] <dsdickinson> about 30 mins ago
+[17:41] <@hinojosa> dsdickinson: I've seen this before
+[17:41] <@hinojosa> to be clear, the team is working on a replacement for this search system
+[17:41] <dsdickinson> yeah, seems odd
+[17:42] <@hinojosa> it's been a bit of a challenge the way it is now
+[17:42] <@hinojosa> the team is working on a whole new infrastructure for this
+[17:42] <@hinojosa> I don't have an ETA on when this will be completed as yet, however, I am aware that the work is currently active.
+[17:43] <@hinojosa> with that, the current system in general works. Give it a bit more time
+[17:43] <@hinojosa> as well, add more detail in your public description
+[17:43] <dsdickinson> okay, wanted to make sure people could find it
+[17:43] <@hinojosa> I tend to have folks search on RSS and see what the top projects that return there have
+[17:44] <@hinojosa> by way of exampel - so that folks can leverage that sort of keyword model as they see fit with their projects in the current model
+[17:44] == tgunr [n=tgunr@cust-66-249-166-12.static.o1.com] has joined #sourceforge
+[17:44] <dsdickinson> makes sense
+[17:45] <dsdickinson> thanks for the help hinojosa
+[17:45] <@hinojosa> dsdickinson: You're welcome

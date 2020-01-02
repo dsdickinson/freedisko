@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><!--
+    FreeDiskO - Mac OSX widget that displays current disk usage.
+    Copyright (C) 2009  Steve Dickinson  dsdickinson@mac.com
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program (see COPYING file).  If not, see <http://www.gnu.org/licenses/>.
+--><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css" title="AppleStyle">
+        @import "freedisko.css";
+    </style>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/utilities.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/setup.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Text.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/InfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/GlassButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="freedisko.js" charset="utf-8"></script>
+<script type="text/javascript" src="Parts/Shape.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+    <div id="front">
+        <img id="frontImg" src="Images/front.png" alt="" onload="javascript:rundf(event)">
+        <div id="info"></div>
+        <div id="helloText"></div>
+    <textarea id="output" readonly=""></textarea>
+    <div id="glassbutton"></div>
+    <input type="text" name="" value="" id="mntpt">
+    <div apple-text-overflow="ellipsis" id="text"></div>
+    <div class="info" id="infobutton"></div>
+    <div apple-text-overflow="" id="text4"></div>
+    <div id="glassbutton1"></div>
+    </div>
+    <div id="back">
+       <img id="backImg" src="Images/back.png" alt="">
+        
+        <div id="done"></div>
+    <select id="units">
+	<option value="b">b - 512 byte blocks</option>
+	<option value="g">g - 1 Gb blocks</option>
+	<option id="option" value="h" selected="selected">h - human  readable</option>
+    <option id="option1" value="k">k - 1 Kb blocks</option>
+    <option value="m">m - 1 Mb blocks</option>
+</select>
+    <div apple-text-overflow="" id="text1"></div>
+    <div id="roundedRectangleShape"></div>
+    <div apple-text-overflow="ellipsis" id="text5"></div>
+    <div apple-text-overflow="ellipsis" id="text6" style=""></div>
+    <div apple-text-overflow="ellipsis" id="text7"></div>
+    <div apple-text-overflow="ellipsis" id="text8" style=""></div>
+    <div apple-text-overflow="ellipsis" id="text9"></div>
+    <div apple-text-overflow="ellipsis" id="text2" onclick="showCodeUni(event)" onmouseover="selectCodeUni(event)"></div>
+    <div apple-text-overflow="ellipsis" id="text3"></div>
+    <div apple-text-overflow="ellipsis" id="text10"></div>
+    <div id="roundedRectangleShape1"></div>
+    <div apple-text-overflow="ellipsis" id="text11"></div>
+    <div apple-text-overflow="ellipsis" id="text12" style=""></div>
+    <div apple-text-overflow="ellipsis" id="text13" style=""></div>
+    </div>
+
+</body>
+</html>

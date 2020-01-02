@@ -1,0 +1,7 @@
+freedisk TODO
+-------------
+add clear button for filter box
+if no results, give message
+change display color
+
+change icon to better represent FreeDiskO (FDO) instead of FreeDisk (FD)

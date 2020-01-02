@@ -1,0 +1,15 @@
+FreeDiskO ChangeLog
+
+v0.1
+----
+initial release
+
+v0.2
+----
+Added ChangeLog file to application.
+Fixed security hole with filtering output (added quotes to command)
+Removed "mountpoints" text from "Filter mountpoints".
+Added clear button for filter input.
+Added a hot key for the clear button.
+if no results, give message
+change icon to better represent FreeDiskO (FDO) instead of FreeDisk (FD)

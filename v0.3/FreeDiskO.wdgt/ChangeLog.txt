@@ -1,0 +1,23 @@
+ChangeLog.txt (FreeDiskO)
+=========================
+v0.1
+----
+initial release
+
+v0.2
+----
+Added ChangeLog file to application.
+Fixed security hole when filtering output (added quotes to command).
+Fixed bug when filter is used and filter applies to header (displays twice).
+Removed "mountpoints" from "Filter mountpoints" text.
+Added clear button for filter input box.
+Added a CTRL+c hot key for the clear button.
+If no results based on filter entered, give message
+Changed icon to better represent FreeDiskO (FDO) instead of FreeDisk (FD).
+
+v0.3
+----
+Updated widget icon.
+Cleaned up code.
+Corrected copyright info on back panel.
+Added animated df example image on back.
